@@ -1,0 +1,2420 @@
+@import url("//fonts.googleapis.com/css?family=Overpass:300,400,600,700&display=swap");
+@import url("bootstrap.min.css");
+@import url("ionicons.min.css");
+@import url("jquery.mCustomScrollbar.min.css");
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_typography.scss */
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #18214D;
+  background: #FFFFFF;
+  font-weight: 400; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+a,
+a:hover {
+  text-decoration: none;
+  transition: 0.3s; }
+
+/* line 6, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 12, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 16, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mtb100 {
+  margin: 100px 0; }
+
+/* line 19, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mtb15 {
+  margin: 15px 0; }
+
+/* line 22, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mt15 {
+  margin-top: 15px; }
+
+/* line 25, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mb15 {
+  margin-bottom: 15px; }
+
+/* line 28, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.ml15 {
+  margin-left: 15px; }
+
+/* line 31, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mr15 {
+  margin-right: 15px; }
+
+/* line 34, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.mb30 {
+  margin-bottom: 30px; }
+
+/* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.ptb70 {
+  padding: 70px 0; }
+
+/* line 40, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.pt70 {
+  padding-top: 70px; }
+
+/* line 43, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.pb40 {
+  padding-bottom: 40px; }
+
+/* line 47, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 3px;
+  height: 6px; }
+
+/* line 52, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.07);
+  border: solid rgba(88, 88, 88, 0.12) 2px;
+  border-radius: 5px; }
+
+/* line 57, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.dropdown-toggle::after {
+  vertical-align: 1px; }
+
+/* line 60, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+thead tr th {
+  padding: 8px 15px !important; }
+
+/* line 63, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+thead th {
+  color: #758696;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0 !important; }
+
+/* line 69, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+tbody tr {
+  color: #4a4a4a; }
+
+/* line 72, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+tbody tr:hover {
+  background: #f6f8f9; }
+
+/* line 75, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.input-group-text,
+.form-control {
+  border-radius: 5px; }
+
+/* line 79, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.table tbody + tbody {
+  border: none; }
+
+/* line 82, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.heading {
+  background: #f5f9fc;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 13px;
+  margin: 0;
+  color: #4a4a4a; }
+
+/* line 90, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.green {
+  color: #26de81; }
+
+/* line 93, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.red {
+  color: #ff231f; }
+
+/* line 96, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.table td,
+.table th {
+  border-top: 1px solid #f0f3fa; }
+
+/* line 100, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.light-bb,
+.input-group-text {
+  border: 1px solid #e0e3eb; }
+
+/* line 104, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.dark-bb {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 107, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+#darkDepthChart,
+#lightDepthChart {
+  width: 100%;
+  height: 349px; }
+
+/* line 112, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.sm-gutters {
+  padding-left: 7.5px;
+  padding-right: 7.5px; }
+
+/* line 116, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.sm-gutters > .col,
+.sm-gutters > [class*='col-'] {
+  padding-right: 7.5px;
+  padding-left: 7.5px; }
+
+/* line 122, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #18214d59; }
+
+/* line 126, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #18214d59; }
+
+/* line 130, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #18214d59; }
+
+/* line 134, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #18214d59; }
+
+/* line 139, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none; }
+
+/* line 143, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.btn-1,
+.btn-2 {
+  display: inline-block;
+  background: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 9px 25px;
+  margin-left: 15px; }
+
+/* line 153, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.btn-1:hover,
+.btn-2:hover {
+  background: #0069d9;
+  color: #fff;
+  text-decoration: none; }
+
+/* line 159, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.btn-2 {
+  background: #007bff;
+  color: #fff; }
+
+/* line 163, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/base/_common.scss */
+.bt-none {
+  border-top: none !important; }
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    top: 0; }
+  95% {
+    opacity: 0.1;
+    left: -10.5px;
+    top: -10.5px;
+    width: 28px;
+    height: 28px; }
+  100% {
+    opacity: 0;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    top: 0; } }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0; }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1; }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0; } }
+
+/* line 40, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header nav a {
+  color: #18214d; }
+
+/* line 43, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header nav a:hover {
+  color: #007bff; }
+
+/* line 46, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header .navbar-brand {
+  padding: 0; }
+
+/* line 49, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header .navbar-brand img {
+  height: 45px; }
+
+/* line 52, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
+/* line 56, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header nav .nav-item.active a {
+  color: #007bff; }
+
+/* line 59, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+header .nav-link.btn {
+  padding: 5px 0; }
+
+/* line 62, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.circle-pulse {
+  background: #0089ff;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  right: 12px;
+  top: 12px; }
+
+/* line 72, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.circle-pulse:after {
+  background-color: #0089ff;
+  content: '';
+  display: table;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: pulse;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; }
+
+/* line 83, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-custom-icon .nav-link {
+  line-height: 0;
+  margin-top: 6px; }
+
+/* line 87, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item {
+  color: #18214d;
+  font-size: 14px; }
+
+/* line 91, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:focus,
+.dropdown-item:active {
+  background-color: #f8f9fa;
+  color: #16181b; }
+
+/* line 96, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .nav-link.dropdown-toggle {
+  padding-right: 0; }
+
+/* line 99, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-custom-icon a:after,
+.header-img-icon a:after {
+  display: none; }
+
+/* line 103, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-custom-icon .dropdown-menu,
+.header-img-icon .dropdown-menu {
+  padding: 0;
+  margin-top: 8px; }
+
+/* line 108, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-menu {
+  max-width: 280px;
+  position: absolute;
+  right: 0;
+  left: auto;
+  border-radius: 5px;
+  margin-top: 12px;
+  border: 1px solid #f2f4f9;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn; }
+
+/* line 121, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-menu::before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  background: #fff;
+  position: absolute;
+  top: -8px;
+  right: 5%;
+  transform: rotate(45deg);
+  border-top: 1px solid #f2f4f9;
+  border-left: 1px solid #f2f4f9;
+  z-index: -1; }
+
+/* line 134, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-menu p {
+  color: #18214d;
+  font-weight: 600; }
+
+/* line 138, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-menu a:hover {
+  text-decoration: none; }
+
+/* line 141, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-menu a.text-muted:hover {
+  color: #007bff !important; }
+
+/* line 144, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .nav-link img {
+  width: 30px; }
+
+/* line 147, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-custom-icon i {
+  font-size: 20px;
+  color: #758696; }
+
+/* line 151, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-header {
+  padding: 12px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #f2f4f9; }
+
+/* line 156, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-body {
+  padding: 5px;
+  max-height: 290px;
+  position: relative;
+  overflow-y: auto; }
+
+/* line 162, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-body .dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 9px 16px; }
+
+/* line 167, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-body .dropdown-item .content {
+  margin-left: 15px;
+  width: 200px;
+  white-space: normal; }
+
+/* line 172, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7; }
+
+/* line 181, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-body .dropdown-item .content p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400; }
+
+/* line 186, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-body .dropdown-item .content p.sub-text {
+  font-size: 12px; }
+
+/* line 189, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-footer {
+  padding: 10px 20px;
+  border-top: 1px solid #f2f4f9;
+  font-size: 14px; }
+
+/* line 195, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(1) .icon {
+  background: rgba(114, 124, 245, 0.1); }
+
+/* line 198, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(1) .icon i {
+  color: #727cf5; }
+
+/* line 201, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(2) .icon {
+  background: rgba(255, 51, 102, 0.1); }
+
+/* line 204, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(2) .icon i {
+  color: #ff5680; }
+
+/* line 207, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(3) .icon {
+  background: rgba(102, 209, 209, 0.1); }
+
+/* line 210, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(3) .icon i {
+  color: #66d1d1; }
+
+/* line 213, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(4) .icon {
+  background: rgba(251, 188, 6, 0.1); }
+
+/* line 216, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(4) .icon i {
+  color: #fbbc06; }
+
+/* line 219, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(5) .icon {
+  background: rgba(16, 183, 89, 0.1); }
+
+/* line 222, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.dropdown-item:nth-child(5) .icon i {
+  color: #10b759; }
+
+/* line 226, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .dropdown-header {
+  padding: 0px 20px; }
+
+/* line 229, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav .nav-item .nav-link {
+  font-size: 14px;
+  padding: 5px 20px; }
+
+/* line 233, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav {
+  padding-bottom: 11px; }
+
+/* line 236, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav .nav-item .nav-link:hover {
+  color: #18214d;
+  background-color: #f8f9fa; }
+
+/* line 240, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav .nav-item .nav-link.red {
+  color: #f74745; }
+
+/* line 243, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav .nav-item .nav-link.red:hover {
+  color: #f74745 !important; }
+
+/* line 246, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .dropdown-body {
+  padding: 10px 0 0; }
+
+/* line 249, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .dropdown-header .name {
+  font-size: 16px; }
+
+/* line 252, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .dropdown-header {
+  padding: 20px 20px 0; }
+
+/* line 255, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_header.scss */
+.header-img-icon .profile-nav .nav-item .nav-link i {
+  margin-right: 15px; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-hero h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2; }
+
+/* line 6, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-hero {
+  margin: 100px 0; }
+
+/* line 9, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-hero p {
+  font-size: 16px;
+  margin: 15px 0 40px; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-hero input {
+  padding: 26px 20px; }
+
+/* line 16, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-hero button {
+  padding: 13px 20px; }
+
+/* line 19, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-info-one h2 {
+  font-size: 30px;
+  font-weight: 700; }
+
+/* line 24, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-info-one ul li i {
+  color: #26de81;
+  font-size: 22px;
+  margin-right: 8px; }
+
+/* line 30, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-info-one ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 10px; }
+
+/* line 36, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-info-one p {
+  margin: 15px 0 30px; }
+
+/* line 39, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-info-one-bg {
+  background: url(../img/landing/dash-preview.png) no-repeat right 50%/48%; }
+
+/* line 42, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.visible-mobile {
+  display: none; }
+
+/* line 45, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature {
+  text-align: center;
+  border-top: 1px solid #e0e3eb;
+  padding: 100px 0; }
+
+/* line 51, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px; }
+
+/* line 56, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature-item {
+  border: 1px solid #f2f4f9;
+  box-shadow: #00000033 0px 2px 14px -6px;
+  padding: 40px 20px;
+  border-radius: 5px; }
+
+/* line 63, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px; }
+
+/* line 69, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature-item h3 {
+  font-size: 20px; }
+
+/* line 72, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-number {
+  background: #007bff;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0; }
+
+/* line 79, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-number h2,
+.landing-number p {
+  margin: 0; }
+
+/* line 84, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-number h2 {
+  font-size: 60px;
+  font-weight: 700; }
+
+/* line 89, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-number p {
+  color: #ffffffb0;
+  font-size: 16px; }
+
+/* line 94, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature-item p {
+  margin-top: 15px; }
+
+/* line 98, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-feature.landing-start {
+  border: none; }
+
+/* line 102, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-start .landing-feature-item span {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 120px;
+  opacity: 0.07;
+  line-height: 1;
+  text-align: center; }
+
+/* line 111, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-sub {
+  background: url(../img/landing/sub-bg.jpg) no-repeat center center/cover;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1; }
+
+/* line 118, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-sub-content h2 {
+  color: #fff;
+  font-size: 36px; }
+
+/* line 123, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-sub:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  background: #0000003d;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+/* line 133, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-sub-content a {
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-size: 22px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px; }
+
+/* line 143, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-sub-content a:hover {
+  background: #0069d9;
+  border: 1px solid #0069d9; }
+
+/* line 147, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer img {
+  width: 80px; }
+
+/* line 151, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer ul li {
+  display: inline-block; }
+
+/* line 154, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer ul li a {
+  color: #18214d;
+  margin-left: 25px; }
+
+/* line 159, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer {
+  padding: 10px 0; }
+
+/* line 163, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer ul li a:hover {
+  color: #007bff; }
+
+/* line 166, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+.landing-coin-price {
+  padding: 100px 0 80px; }
+
+/* line 169, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two {
+  background: #fafbfc;
+  padding: 50px 0;
+  border-top: 1px solid #e0e3eb; }
+
+/* line 175, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two img {
+  width: 120px; }
+
+/* line 179, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two p {
+  margin: 20px 0; }
+
+/* line 183, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two .social-icon li {
+  display: inline-block; }
+
+/* line 187, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two .social-icon li a {
+  color: #18214d;
+  font-size: 25px;
+  margin-right: 15px; }
+
+/* line 193, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two .social-icon li:last-child a {
+  margin-right: 0; }
+
+/* line 197, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two h3 {
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+/* line 202, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two ul li a {
+  color: #18214d;
+  margin-top: 5px;
+  display: block; }
+
+/* line 208, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/layout/_landing-page.scss */
+footer.landing-footer-two ul li a:hover {
+  color: #007bff; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs {
+  border: 1px solid #e0e3eb;
+  padding-top: 14px;
+  border-radius: 2px; }
+
+/* line 6, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs .input-group {
+  padding: 0 14px; }
+
+/* line 9, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs span {
+  background: transparent; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs input {
+  border-color: #e0e3eb;
+  border-left: 0;
+  font-weight: 300; }
+
+/* line 18, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs input:focus {
+  box-shadow: none;
+  border-color: #e0e3eb; }
+
+/* line 22, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs .nav {
+  margin-top: 14px;
+  background: #f5f9fc; }
+
+/* line 27, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs .nav-link {
+  color: #4a4a4a;
+  padding: 10px 13px; }
+
+/* line 32, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs .nav-link.active {
+  color: #007bff;
+  background: transparent; }
+
+/* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.table {
+  margin-bottom: 0; }
+
+/* line 40, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.table td {
+  font-size: 13px;
+  padding: 10px 18px; }
+
+/* line 44, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs tbody tr td i {
+  color: #75869696; }
+
+/* line 47, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+#STAR i {
+  color: #007bff; }
+
+/* line 50, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs thead tr th,
+.market-pairs tbody tr td {
+  cursor: pointer;
+  font-weight: 400; }
+
+/* line 56, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs tbody {
+  height: 800px;
+  overflow-y: auto;
+  display: block; }
+
+/* line 61, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.no-fluid .market-pairs tbody {
+  height: 815px; }
+
+/* line 64, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs table,
+.market-pairs tr {
+  width: 100%;
+  table-layout: fixed; }
+
+/* line 69, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs tr {
+  float: left;
+  clear: both;
+  overflow: hidden; }
+
+/* line 75, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-pairs.scss */
+.market-pairs thead th,
+.market-pairs tbody td {
+  width: 65%; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book table,
+.order-book tr,
+.order-book td,
+.order-book th {
+  width: 100%;
+  table-layout: fixed; }
+
+/* line 8, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book tr {
+  float: left;
+  clear: both;
+  overflow: hidden; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book .table thead th {
+  font-weight: 400;
+  font-size: 12px; }
+
+/* line 17, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book thead tr {
+  border-bottom: 1px solid #e0e3eb; }
+
+/* line 20, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book tbody tr,
+.order-book tbody td {
+  border: none; }
+
+/* line 24, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book {
+  border: 1px solid #e0e3eb;
+  border-radius: 2px; }
+
+/* line 28, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-80,
+.red-bg-60,
+.red-bg-40,
+.red-bg-20,
+.red-bg-10,
+.red-bg-8,
+.red-bg-5,
+.red-bg,
+.green-bg-80,
+.green-bg-60,
+.green-bg-40,
+.green-bg-20,
+.green-bg-10,
+.green-bg-8,
+.green-bg-5,
+.green-bg {
+  position: relative; }
+
+/* line 46, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-80:after,
+.red-bg-60:after,
+.red-bg-40:after,
+.red-bg-20:after,
+.red-bg-10:after,
+.red-bg-8:after,
+.red-bg-5:after,
+.red-bg:after {
+  position: absolute;
+  content: "";
+  background: #de262663;
+  right: 0;
+  top: 0;
+  width: 280px;
+  height: 45px; }
+
+/* line 62, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-60:after {
+  width: 240px; }
+
+/* line 65, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-40:after {
+  width: 200px; }
+
+/* line 68, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-20:after {
+  width: 160px; }
+
+/* line 71, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-10:after {
+  width: 120px; }
+
+/* line 74, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-8:after {
+  width: 80px; }
+
+/* line 77, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg-5:after {
+  width: 50px; }
+
+/* line 80, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.red-bg:after {
+  width: 30px; }
+
+/* line 84, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-80:after,
+.green-bg-60:after,
+.green-bg-40:after,
+.green-bg-20:after,
+.green-bg-10:after,
+.green-bg-8:after,
+.green-bg-5:after,
+.green-bg:after {
+  position: absolute;
+  content: "";
+  background: #26de8163;
+  right: 0;
+  top: 0;
+  width: 280px;
+  height: 45px; }
+
+/* line 100, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-60:after {
+  width: 240px; }
+
+/* line 103, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-40:after {
+  width: 200px; }
+
+/* line 106, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-20:after {
+  width: 160px; }
+
+/* line 109, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-10:after {
+  width: 120px; }
+
+/* line 112, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-8:after {
+  width: 80px; }
+
+/* line 115, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg-5:after {
+  width: 50px; }
+
+/* line 118, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.green-bg:after {
+  width: 30px; }
+
+/* line 121, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.ob-heading span {
+  color: #4a4a4a;
+  display: block;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 128, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.ob-heading td {
+  padding: 5px 12px;
+  cursor: default; }
+
+/* line 133, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.ob-heading tr {
+  border-top: 1px solid #f0f3fa !important;
+  border-bottom: 1px solid #f0f3fa !important; }
+
+/* line 137, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.ob-heading tr:hover {
+  background: #fff; }
+
+/* line 140, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.ob-heading td:first-child {
+  width: 65%; }
+
+/* line 144, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+.order-book tbody {
+  display: block;
+  overflow-y: auto;
+  height: 211px; }
+
+/* line 150, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-book.scss */
+tbody.ob-heading {
+  height: inherit; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade input {
+  border: 1px solid #e0e3eb;
+  font-weight: 300; }
+
+/* line 5, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade input:focus {
+  box-shadow: none;
+  border-color: #e0e3eb; }
+
+/* line 9, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade {
+  border: 1px solid #e0e3eb;
+  border-radius: 2px; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .tab-content {
+  height: 357px;
+  overflow-y: auto;
+  padding: 14px; }
+
+/* line 18, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .nav {
+  padding: 14px 14px 0; }
+
+/* line 22, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .nav .nav-item .nav-link.active {
+  background: #fff;
+  color: #007bff; }
+
+/* line 27, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .nav .nav-item .nav-link {
+  color: #4a4a4a;
+  padding: 0; }
+
+/* line 32, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .input-group-text {
+  background: #eff2f6;
+  color: #4a4a4a;
+  font-weight: 300; }
+
+/* line 38, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .input-group {
+  margin-bottom: 14px; }
+
+/* line 42, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade .nav-item {
+  margin-right: 30px; }
+
+/* line 46, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-list li a {
+  background: #eff2f6;
+  color: #4a4a4a;
+  font-weight: 300;
+  padding: 3px 15px;
+  border-radius: 5px; }
+
+/* line 54, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-list li {
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 7px; }
+
+/* line 59, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-list li:last-child {
+  margin-right: 0; }
+
+/* line 62, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-buy .market-trade-list li a:hover {
+  text-decoration: none;
+  background: #26a69a;
+  color: #fff; }
+
+/* line 67, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-sell .market-trade-list li a:hover {
+  text-decoration: none;
+  background: #ef5350;
+  color: #fff; }
+
+/* line 73, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade button.buy,
+.market-trade button.sell {
+  background: #26de81;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px #26de81ad; }
+
+/* line 83, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade button.sell {
+  background: #ff231f;
+  box-shadow: 0px 0px 15px 0px #ff231fad; }
+
+/* line 87, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade p {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #4a4a4a; }
+
+/* line 92, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade p span {
+  float: right; }
+
+/* line 96, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-list {
+  margin-bottom: 23px; }
+
+/* line 99, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-item {
+  width: 100%; }
+
+/* line 103, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-buy,
+.market-trade-sell {
+  width: 100%; }
+
+/* line 108, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-buy {
+  padding: 0 15px 0 0; }
+
+/* line 112, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-trade.scss */
+.market-trade-sell {
+  padding: 0 0 0 15px;
+  border-left: 1px solid #e0e3eb; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history .nav {
+  background: #F5F9FC; }
+
+/* line 4, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history .nav-link {
+  color: #4a4a4a;
+  padding: 10px 13px; }
+
+/* line 9, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history .nav-link.active {
+  color: #007bff;
+  background: transparent; }
+
+/* line 14, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history thead tr th,
+.market-history tbody tr td {
+  cursor: pointer;
+  font-weight: 400; }
+
+/* line 19, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history tbody {
+  height: 315px;
+  overflow-y: auto;
+  display: block; }
+
+/* line 25, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history table,
+.market-history tr,
+.market-history td,
+.market-history th {
+  width: 100%;
+  table-layout: fixed; }
+
+/* line 32, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history tr {
+  float: left;
+  clear: both;
+  overflow: hidden; }
+
+/* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-history.scss */
+.market-history {
+  border: 1px solid #e0e3eb;
+  border-radius: 2px; }
+
+/* line 2, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news {
+  border: 1px solid #e0e3eb;
+  border-radius: 2px; }
+
+/* line 7, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li a {
+  color: #4a4a4a;
+  font-size: 11px;
+  display: block;
+  text-decoration: none; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li:hover {
+  background: #f6f8f9; }
+
+/* line 16, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li strong {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #4a4a4ac7; }
+
+/* line 23, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li span {
+  display: block;
+  margin-top: 5px; }
+
+/* line 28, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li {
+  border-bottom: 1px solid #f0f3fa;
+  padding: 10px 13px; }
+
+/* line 33, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news li:last-child {
+  border: 0; }
+
+/* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-news.scss */
+.market-news ul {
+  height: 348px;
+  overflow-y: auto; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-order.scss */
+.market-order th {
+  width: 13%; }
+
+/* line 4, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-order.scss */
+.no-data {
+  position: absolute;
+  right: 48%;
+  top: 48%;
+  text-align: center;
+  color: #b9c2ca; }
+
+/* line 11, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-order.scss */
+.no-data i {
+  font-size: 100px;
+  display: block;
+  line-height: 0px;
+  color: #dce1e5; }
+
+/* line 17, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-order.scss */
+.market-order-item {
+  color: #758696;
+  padding: 8px 15px; }
+
+/* line 21, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_market-order.scss */
+.market-order {
+  border-top: 0;
+  min-height: 392px;
+  border: 1px solid #e0e3eb;
+  border-radius: 2px; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-chart > div {
+  width: 110%;
+  margin-left: -16px; }
+
+/* line 5, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-container {
+  position: relative;
+  overflow: hidden;
+  height: 159px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  margin-bottom: 30px; }
+
+/* line 15, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-chart {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  left: 0; }
+
+/* line 22, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-content span.green,
+.markets-content span.red {
+  position: absolute;
+  right: 0;
+  background: #26a69a;
+  color: #fff;
+  top: 15px;
+  padding: 3px 12px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-weight: 600; }
+
+/* line 34, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-content span.red {
+  background: #ef5350; }
+
+/* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-content h2 {
+  font-size: 14px;
+  top: 14px;
+  position: absolute;
+  left: 15px;
+  color: #4a4a4a; }
+
+/* line 45, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-content p {
+  position: absolute;
+  top: 32px;
+  left: 15px;
+  font-size: 16px; }
+
+/* line 52, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list tr {
+  cursor: pointer; }
+
+/* line 55, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list th,
+.markets-pair-list td {
+  padding: 15px !important;
+  width: 16%;
+  font-size: 14px; }
+
+/* line 62, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list tbody tr td i {
+  color: #75869696; }
+
+/* line 66, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .nav-link.active {
+  color: #007bff;
+  background: transparent; }
+
+/* line 71, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .nav-link {
+  color: #4a4a4a; }
+
+/* line 75, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .nav {
+  background: #f5f9fc;
+  padding: 7px 0; }
+
+/* line 80, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list th {
+  font-weight: 400; }
+
+/* line 84, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list td img {
+  width: 18px;
+  vertical-align: text-top;
+  margin-right: 5px; }
+
+/* line 90, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .load-more {
+  border: 1px solid #e0e3eb;
+  display: inline-block;
+  padding: 11px 30px 8px;
+  color: #4a4a4a;
+  margin-top: 50px;
+  transition: 0.3s; }
+
+/* line 99, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .load-more i {
+  margin-left: 10px; }
+
+/* line 103, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-pair-list .load-more:hover {
+  background: #007bff;
+  color: #fff;
+  border: 1px solid #007bff; }
+
+/* line 108, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-item {
+  margin-bottom: 30px; }
+
+/* line 112, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-item {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  padding: 40px 0 0 0;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #f2f4f9;
+  height: 311px;
+  margin-bottom: 30px; }
+
+/* line 122, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-chart {
+  margin-left: -10px; }
+
+/* line 126, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-item img {
+  width: 25px;
+  margin-top: -3px;
+  margin-right: 2px; }
+
+/* line 132, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-item h4 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  font-size: 20px; }
+
+/* line 137, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-item h2 {
+  font-size: 26px; }
+
+/* line 141, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.markets-capital-details h3 {
+  font-size: 18px;
+  margin-bottom: 40px; }
+
+/* line 146, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_markets.scss */
+.market-capital-ticker .markets-capital-item {
+  height: 96.2%;
+  margin-bottom: 5px; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access form {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid #f2f4f9;
+  min-width: 350px; }
+
+/* line 8, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access .form-group input {
+  border: 1px solid #e0e3eb;
+  height: 45px;
+  color: #18214d;
+  font-size: 14px; }
+
+/* line 14, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access .form-group input:focus {
+  box-shadow: none; }
+
+/* line 17, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access a:hover {
+  text-decoration: none; }
+
+/* line 20, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access span {
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-top: -5px;
+  font-weight: 600; }
+
+/* line 28, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access .text-right {
+  margin-top: -5px;
+  font-weight: 600; }
+
+/* line 33, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access button {
+  width: 100%;
+  padding: 12px;
+  font-weight: 600;
+  margin-top: 20px; }
+
+/* line 40, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access .custom-control-label::before,
+.form-access .custom-control-label::after {
+  top: 2px; }
+
+/* line 44, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access .custom-control-label::before {
+  border: #cbd2df solid 1px; }
+
+/* line 48, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access h2 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px; }
+
+/* line 53, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_form-access.scss */
+.form-access h2 a {
+  font-weight: 600; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_error.scss */
+.error-page h2 {
+  font-size: 250px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1; }
+
+/* line 7, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_error.scss */
+.error-page p {
+  font-size: 16px;
+  margin-bottom: 40px; }
+
+/* line 11, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_error.scss */
+.error-page a {
+  border: 1px solid #e0e3eb;
+  display: inline-block;
+  padding: 11px 30px 8px;
+  color: #4a4a4a;
+  transition: .3s; }
+
+/* line 18, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_error.scss */
+.error-page a:hover {
+  background: #007bff;
+  color: #fff;
+  border: 1px solid #007bff; }
+
+/* line 23, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_error.scss */
+.error-page a i {
+  margin-left: 10px; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_tradingview.scss */
+.technical-analysis .tradingview-widget-container {
+  margin-bottom: 30px; }
+
+/* line 4, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_tradingview.scss */
+.symbol-info .tradingview-widget-container {
+  margin-bottom: 15px; }
+
+/* line 7, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_tradingview.scss */
+.markets-overview .tradingview-widget-container {
+  margin-bottom: 30px; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px; }
+
+/* line 8, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-nav {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  border-radius: 5px; }
+
+/* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-nav .nav-link {
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #18214d;
+  font-weight: 600;
+  margin: 2px 0;
+  padding: 10px 20px; }
+
+/* line 21, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-nav .nav-link i {
+  margin-right: 10px; }
+
+/* line 24, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .card-title {
+  font-size: 16px;
+  margin-bottom: 30px; }
+
+/* line 29, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile .col-md-6 {
+  margin-bottom: 20px; }
+
+/* line 33, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile input,
+.settings-profile select {
+  border: 1px solid #e0e3eb;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 45px; }
+
+/* line 41, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile input[type='submit'] {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px;
+  height: inherit;
+  font-size: 16px;
+  margin-top: 10px; }
+
+/* line 51, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile .custom-file {
+  display: inline-block;
+  width: 20%;
+  margin-left: 20px; }
+
+/* line 57, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile .custom-file label {
+  border: 1px solid #e0e3eb; }
+
+/* line 61, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-profile .custom-file label:after {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600; }
+
+/* line 67, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px; }
+
+/* line 73, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills h2 {
+  margin-bottom: 0;
+  line-height: 1;
+  color: #18214d;
+  font-size: 22px; }
+
+/* line 80, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills p {
+  margin-bottom: 0;
+  color: #18214d; }
+
+/* line 85, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a.active {
+  background: #0f7dff; }
+
+/* line 88, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a {
+  border-top: 1px solid #f0f3fa;
+  padding: 15px; }
+
+/* line 92, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a:first-child,
+.settings-nav .nav-link:first-child {
+  border-top: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; }
+
+/* line 98, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a:last-child,
+.settings .settings-nav .nav-link:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+/* line 103, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills h3 {
+  color: #18214d;
+  margin-bottom: 0; }
+
+/* line 107, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px -6px;
+  border-radius: 5px; }
+
+/* line 111, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a {
+  border-radius: 0; }
+
+/* line 114, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .nav-pills a.active h2,
+.settings .wallet .nav-pills a.active h3,
+.settings .wallet .nav-pills a.active p {
+  color: #ffffff; }
+
+/* line 120, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content li i {
+  font-size: 22px;
+  color: #0f7dff;
+  background: rgba(15, 125, 255, 0.13);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 15px; }
+
+/* line 132, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content h2 {
+  margin-bottom: 0;
+  font-size: 18px; }
+
+/* line 136, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content h3 {
+  margin-bottom: 0;
+  font-size: 18px; }
+
+/* line 141, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content li:first-child {
+  border-bottom: 1px solid #f0f3fa;
+  padding-bottom: 15px;
+  margin-bottom: 15px; }
+
+/* line 147, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content button.green {
+  background: #26de81;
+  color: #ffffff;
+  box-shadow: 0px 0px 15px 0px #26de81ad; }
+
+/* line 152, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content button.red {
+  background: #ff231f;
+  box-shadow: 0px 0px 15px 0px #ff231fad;
+  color: #ffffff; }
+
+/* line 157, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content button {
+  padding: 12px 60px;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+/* line 162, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content button:focus {
+  box-shadow: none; }
+
+/* line 165, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content ul {
+  margin: 0 0 40px; }
+
+/* line 169, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet-address input {
+  padding: 25px 15px;
+  font-size: 14px; }
+
+/* line 173, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet-address .input-group-prepend button {
+  padding: 13px 20px;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important; }
+
+/* line 179, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet-address input {
+  border: 1px solid #e0e3eb; }
+
+/* line 182, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet-history i {
+  margin-left: 14px; }
+
+/* line 186, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet-address .input-group {
+  padding-top: 30px; }
+
+/* line 189, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .wallet .tab-content h2.wallet-title {
+  color: #18214d;
+  font-size: 16px; }
+
+/* line 194, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-notification li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f3fa;
+  align-items: center; }
+
+/* line 201, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-notification li:first-child {
+  padding-top: 0; }
+
+/* line 205, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-notification li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0; }
+
+/* line 210, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-notification li span {
+  color: #18214d59; }
+
+/* line 214, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings-notification li p {
+  margin-bottom: 0; }
+
+/* line 218, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.settings .custom-control-label {
+  cursor: pointer; }
+
+/* line 222, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.wallet-history .ion-md-trash {
+  font-size: 16px;
+  cursor: pointer; }
+
+/* line 226, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/module/_settings.scss */
+.wallet-history {
+  overflow-x: auto; }
+
+/* line 1, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark,
+#dark header {
+  background: #131722; }
+
+/* line 5, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark header nav a {
+  color: #ffffff; }
+
+/* line 8, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark header nav a:hover {
+  color: #007bff; }
+
+/* line 11, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark header nav a.btn:hover {
+  color: #ffffff; }
+
+/* line 14, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark header nav .nav-item.active a {
+  color: #007bff; }
+
+/* line 17, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs {
+  border: 1px solid #2a2e39;
+  background: #131722; }
+
+/* line 21, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark tr {
+  background: #131722; }
+
+/* line 24, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs .table td,
+#dark .market-pairs .table th,
+#dark .landing-feature {
+  border-top: 1px solid #2a2e39; }
+
+/* line 29, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-history .table td,
+#dark .market-history .table th {
+  border-top: 1px solid #2a2e39; }
+
+/* line 33, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .order-book thead tr {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 36, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .order-book,
+#dark .market-history,
+#dark .market-news,
+#dark .landing-feature-item {
+  border: 1px solid #2a2e39; }
+
+/* line 42, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark tbody tr:hover {
+  background: #2a2e39; }
+
+/* line 45, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #69727a; }
+
+/* line 49, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #69727a; }
+
+/* line 53, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #69727a; }
+
+/* line 57, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #69727a; }
+
+/* line 61, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark tbody tr {
+  color: #ffffff; }
+
+/* line 64, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark thead th,
+#dark .market-pairs .nav-link {
+  color: #4f5966; }
+
+/* line 68, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs .nav-link.active,
+#dark #STAR i {
+  color: #ffffff; }
+
+/* line 72, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .green {
+  color: #26de81; }
+
+/* line 75, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .red {
+  color: #ff231f; }
+
+/* line 78, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs .nav {
+  background: #1c2030; }
+
+/* line 81, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs input,
+#dark .market-pairs span {
+  border-color: #2a2e39;
+  background: #2a2e39; }
+
+/* line 86, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-pairs input {
+  color: #ffffff; }
+
+/* line 89, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .heading {
+  background: #1c2030;
+  color: #ffffff; }
+
+/* line 93, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .ob-heading tr {
+  border-top: 1px solid #2a2e39 !important;
+  border-bottom: 1px solid #2a2e39 !important; }
+
+/* line 97, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .ob-heading tr:hover {
+  background: #131722;
+  cursor: default; }
+
+/* line 101, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .ob-heading span {
+  color: #4f5966; }
+
+/* line 104, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-menu {
+  background: #131722;
+  box-shadow: 0 0 10px 0 #131722;
+  border: 1px solid #2a2e39; }
+
+/* line 109, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-item:focus,
+#dark .dropdown-item:hover {
+  background-color: #2a2e39;
+  color: #ffffff; }
+
+/* line 114, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-history .nav {
+  background: #1c2030; }
+
+/* line 117, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-history .nav-link.active {
+  color: #ffffff; }
+
+/* line 120, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-history .nav-link {
+  color: #4f5966; }
+
+/* line 123, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .red-bg-80:after,
+#dark .red-bg-60:after,
+#dark .red-bg-40:after,
+#dark .red-bg-20:after,
+#dark .red-bg-10:after,
+#dark .red-bg-8:after,
+#dark .red-bg-5:after,
+#dark .red-bg:after {
+  background: #ff231f63; }
+
+/* line 133, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-news {
+  background: #131722; }
+
+/* line 136, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-news li {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 139, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-news li:hover {
+  background: #2a2e39; }
+
+/* line 142, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-news li strong,
+#dark .market-news li a {
+  color: #c5cbce; }
+
+/* line 146, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-order {
+  background: #131722; }
+
+/* line 149, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .no-data i,
+#dark .no-data {
+  color: #2a2e39; }
+
+/* line 153, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade {
+  border: 1px solid #2a2e39;
+  background: #131722; }
+
+/* line 157, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade .nav .nav-item .nav-link.active {
+  background: transparent;
+  color: #ffffff; }
+
+/* line 161, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade .nav .nav-item .nav-link {
+  color: #4f5966; }
+
+/* line 164, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade p {
+  color: #c5cbce; }
+
+/* line 167, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade-list li a {
+  background: #2a2e39;
+  color: #ffffff; }
+
+/* line 171, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade input {
+  border: 1px solid #2a2e39;
+  background: #2a2e39;
+  color: #ffffff; }
+
+/* line 176, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade .input-group-text {
+  background: #2a2e39;
+  color: #ffffff;
+  border-color: #2a2e39; }
+
+/* line 181, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade-buy .market-trade-list li a:hover {
+  background: #26de81;
+  color: #fff; }
+
+/* line 185, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade-sell .market-trade-list li a:hover {
+  background: #ff231f;
+  color: #fff; }
+
+/* line 189, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark #darkDepthChart {
+  background: #131722; }
+
+/* line 192, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets {
+  background: #131722; }
+
+/* line 195, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .table td,
+#dark table th {
+  border-top: 1px solid #2a2e39; }
+
+/* line 199, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-pair-list .nav {
+  background: #1c2030; }
+
+/* line 202, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-pair-list .nav-link.active,
+#dark #STAR i {
+  color: #ffffff; }
+
+/* line 206, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark thead th,
+#dark .markets-pair-list .nav-link {
+  color: #4f5966; }
+
+/* line 210, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-pair-list .load-more {
+  border: 1px solid #2a2e39;
+  color: #ffffff; }
+
+/* line 214, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-pair-list .load-more:hover {
+  color: #fff;
+  border: 1px solid #007bff; }
+
+/* line 218, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-content h2,
+#dark .markets-content p {
+  color: #ffffff; }
+
+/* line 222, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-content span.green,
+#dark .markets-content span.red {
+  color: #fff; }
+
+/* line 226, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .market-trade-sell {
+  border-left: 1px solid #2a2e39; }
+
+/* line 229, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-container {
+  background: #1e222d; }
+
+/* line 232, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .sign-up-form h3 {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 15px; }
+
+/* line 237, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark header nav .nav-item.active a.btn:hover {
+  color: #fff; }
+
+/* line 241, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #007bff;
+  background-color: #007bff; }
+
+/* line 247, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-menu::before {
+  background: #131722;
+  border-top: 1px solid #2a2e39;
+  border-left: 1px solid #2a2e39; }
+
+/* line 253, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-menu p {
+  color: #ffffff; }
+
+/* line 257, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-header {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 260, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .dropdown-footer {
+  border-top: 1px solid #2a2e39; }
+
+/* line 264, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .header-img-icon .profile-nav .nav-item .nav-link:hover {
+  background-color: #2a2e39;
+  color: #ffffff; }
+
+/* line 269, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-control,
+#dark .settings-profile select {
+  background-color: #2a2e39;
+  border: 1px solid #2a2e39;
+  color: #ffffff; }
+
+/* line 275, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-access form {
+  padding: 30px;
+  border-radius: 5px;
+  min-width: 350px;
+  box-shadow: 0 0 10px 0 #131722;
+  border: 1px solid #2a2e39; }
+
+/* line 282, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-access h2,
+#dark .form-access {
+  color: #ffffff; }
+
+/* line 287, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .form-access .custom-control-label::before {
+  border: #2a2e39 solid 1px;
+  background-color: #2a2e39; }
+
+/* line 292, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .error-page a {
+  border: 1px solid #2a2e39;
+  color: #ffffff; }
+
+/* line 296, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .error-page a:hover {
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #ffffff; }
+
+/* line 302, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .error-page h2,
+#dark .error-page p {
+  color: #c5cbce; }
+
+/* line 307, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet .nav-pills a,
+#dark .wallet-history {
+  border-top: 1px solid #2a2e39; }
+
+/* line 311, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet .nav {
+  background: #1e222d; }
+
+/* line 314, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet h2,
+#dark .wallet h3,
+#dark .wallet h4,
+#dark .wallet p {
+  color: #ffffff; }
+
+/* line 320, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet button.green,
+#dark .wallet button.red,
+#dark .wallet .nav-pills a.active h2,
+#dark .wallet .nav-pills a.active h3,
+#dark .wallet .nav-pills a.active p {
+  color: #ffffff; }
+
+/* line 328, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet .tab-content li:first-child {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 331, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet-history tr {
+  background: #1e222d; }
+
+/* line 334, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .wallet-address input,
+#dark .wallet-address input:focus {
+  border: 1px solid #2a2e39;
+  background: #2a2e39;
+  box-shadow: none;
+  color: #ffffff; }
+
+/* line 341, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .depth-chart-inner {
+  border: 1px solid #2a2e39; }
+
+/* line 345, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-capital-item {
+  box-shadow: 0 0 10px 0 #131722;
+  border: 1px solid #2a2e39; }
+
+/* line 350, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .markets-capital-item h2,
+#dark .markets-capital-item h4 {
+  color: #fff; }
+
+/* line 354, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings .card {
+  background: #1e222d; }
+
+/* line 358, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings .card-title {
+  color: #fff; }
+
+/* line 362, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-nav {
+  background: #1e222d; }
+
+/* line 366, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-nav .nav-link {
+  color: #ffffff; }
+
+/* line 370, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-notification li {
+  border-bottom: 1px solid #2a2e39; }
+
+/* line 373, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-notification li:last-child {
+  border-bottom: 0; }
+
+/* line 376, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-notification p {
+  color: #ffffff; }
+
+/* line 379, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-notification span {
+  color: #4f5966; }
+
+/* line 383, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings label {
+  color: #fff; }
+
+/* line 386, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings .custom-file-label {
+  background: #2a2e39;
+  border: 1px solid #2a2e39;
+  color: #616d75; }
+
+/* line 392, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .settings-profile input[type='submit'] {
+  border: 1px solid #007bff; }
+
+/* line 395, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .btn-1:hover,
+#dark .btn-2:hover,
+#dark .landing-hero,
+#dark .landing-info-one,
+#dark .landing-feature,
+#dark footer.landing-footer ul li a {
+  color: #fff; }
+
+/* line 403, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .landing-info-one-bg {
+  background: url(../img/landing/dash-preview-dark.png) no-repeat right 50%/48%; }
+
+/* line 406, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark .landing-feature-item img {
+  filter: invert(1); }
+
+/* line 409, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark footer.landing-footer-two {
+  background: #2a2e39;
+  color: #fff;
+  border-color: #2a2e39; }
+
+/* line 415, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark footer.landing-footer-two ul li a {
+  color: #ffffffbd; }
+
+/* line 419, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_dark.scss */
+#dark footer.landing-footer-two ul li a:hover {
+  color: #007bff; }
+
+@media only screen and (max-width: 1434px) {
+  /* line 2, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-pairs tbody {
+    height: 760px; }
+  /* line 5, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .no-fluid .market-pairs tbody {
+    height: 815px; }
+  /* line 8, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .settings-profile .custom-file {
+    width: 25%; } }
+
+@media only screen and (max-width: 1300px) {
+  /* line 13, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-pairs tbody {
+    height: 740px; }
+  /* line 16, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .no-fluid .market-pairs tbody {
+    height: 755px; } }
+
+@media only screen and (max-width: 1200px) {
+  /* line 21, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .markets-capital-item {
+    height: 289px; } }
+
+@media only screen and (max-width: 991px) {
+  /* line 26, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  footer.landing-footer-two h3 {
+    margin-top: 30px; }
+  /* line 29, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .tradingview-tecnical-analys {
+    margin-top: 50px; }
+  /* line 32, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .btn-1,
+  .btn-2 {
+    margin: 8px;
+    text-align: center; }
+  /* line 37, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .mtb100 {
+    margin: 50px 0; }
+  /* line 40, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-hero {
+    margin: 50px 0; }
+  /* line 43, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-number p {
+    margin-bottom: 40px; }
+  /* line 46, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-number {
+    padding: 40px 0 0; }
+  /* line 49, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .tradingview-gain-and-loser {
+    margin-bottom: 50px; }
+  /* line 52, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-feature {
+    padding: 50px 0 30px; }
+  /* line 55, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-sub {
+    padding: 50px 0; }
+  /* line 58, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-sub-content h2 {
+    font-size: 26px; }
+  /* line 61, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-number h2 {
+    font-size: 40px; }
+  /* line 64, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .visible-mobile {
+    display: block;
+    margin-top: 50px; }
+  /* line 68, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-hero h2 {
+    font-size: 36px; }
+  /* line 71, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-feature-item {
+    margin-bottom: 30px; }
+  /* line 74, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .landing-info-one-bg,
+  #dark .landing-info-one-bg {
+    background: none; }
+  /* line 78, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .settings-nav {
+    margin-bottom: 15px; }
+  /* line 81, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .settings-profile .custom-file {
+    width: 35%; } }
+
+@media only screen and (max-width: 918px) {
+  /* line 86, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-history tbody {
+    height: 274px; } }
+
+@media only screen and (max-width: 792px) {
+  /* line 91, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-pairs tbody {
+    height: 699px; } }
+
+@media only screen and (max-width: 768px) {
+  /* line 96, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  footer.landing-footer {
+    text-align: center; }
+  /* line 100, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  footer.landing-footer img {
+    margin-bottom: 10px; }
+  /* line 104, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  footer.landing-footer .d-flex {
+    display: block !important; }
+  /* line 107, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .settings-profile .custom-file {
+    width: 45%; }
+  /* line 110, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  header button.navbar-toggler i {
+    font-size: 30px;
+    color: #4a4a4a; }
+  /* line 114, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  header button.navbar-toggler:focus {
+    outline: none; }
+  /* line 117, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .navbar-collapse .dropdown.menu-avatar-icon {
+    margin-top: 10px; }
+  /* line 120, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .no-fluid .market-pairs {
+    margin-bottom: 15px; }
+  /* line 123, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .no-fluid .order-book {
+    margin-top: 15px; }
+  /* line 126, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .circle-pulse {
+    left: 27px;
+    right: inherit; }
+  /* line 130, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .dropdown-menu::before {
+    right: inherit;
+    left: 5%; }
+  /* line 134, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .wallet .nav {
+    margin-bottom: 30px; }
+  /* line 137, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .wallet-address img {
+    margin-top: 40px; }
+  /* line 140, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  #dark header button.navbar-toggler i {
+    color: #c5cbce; }
+  /* line 143, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-order-item {
+    padding: 5px 5px;
+    overflow: hidden; }
+  /* line 147, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .market-order-item li {
+    font-size: 12px; }
+  /* line 150, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .markets-capital-item {
+    height: 304px; } }
+
+@media only screen and (max-width: 576px) {
+  /* line 155, ../../../OneDrive/Documents/GitHub/Beamology_Shell_CLI/Crypo/assets/scss/theme/_responsive.scss */
+  .markets-capital-item {
+    height: 91.4%; } }
+
+/*# sourceMappingURL=style.css.map */

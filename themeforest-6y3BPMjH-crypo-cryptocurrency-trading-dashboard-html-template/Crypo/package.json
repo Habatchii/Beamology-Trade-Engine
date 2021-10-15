@@ -1,0 +1,21 @@
+{
+  "name": "crypo",
+  "version": "1.0.0",
+  "description": "A modular UI kit for blockchain exchange dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --names \"SASS,WATCH,SERVE\" -c \"bgBlue.bold,bgMagenta.bold,bgGreen.bold\" \"npm run sass\" \"npm run sass:watch\" \"npm run serve\"",
+    "serve": "lite-server",
+    "sass": "node-sass assets/scss/style.scss --output assets/css/ --indent-width 4 --output-style expanded --indent-type space --source-map true",
+    "sass:watch": "npm run sass -- --watch"
+  },
+  "keywords": [],
+  "author": "Trendy Ui",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
+  }
+}
